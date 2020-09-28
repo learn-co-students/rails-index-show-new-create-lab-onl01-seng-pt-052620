@@ -1,0 +1,13 @@
+<%# new.html.erb view template should render a form that uses the form_tag method. %>
+<h1>Coupon Form</h1>
+
+<%= form_tag coupons_path do %>
+
+  <label>Coupon Code:</label><br>
+  <%= text_field_tag :'coupon[coupon_code]'%><br>
+
+  <label>Store:</label><br>
+  <%= text_field_tag :'coupon[store]'%><br>
+
+<%= submit_tag "Submit Coupon" %>
+<% end %>
