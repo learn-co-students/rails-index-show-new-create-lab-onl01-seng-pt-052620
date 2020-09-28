@@ -1,0 +1,9 @@
+<div>Index for Coupons</div>
+
+<div>
+<%#  coupon codes on the index page should link to their corresponding coupon show page %>
+<% @coupons.each do |coupon| %>
+<%= link_to coupon.store, coupon_path(coupon) %>
+<%= link_to coupon.coupon_code, coupon_path(coupon) %>
+<% end %>
+</div>
