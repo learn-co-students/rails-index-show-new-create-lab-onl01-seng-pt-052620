@@ -1,0 +1,7 @@
+{
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "HTML(Erb)": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true
+}
